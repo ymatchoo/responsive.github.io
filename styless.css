@@ -1,0 +1,224 @@
+
+
+body{
+    text-align: center;
+    color:blueviolet;
+    background-color: #171723;
+    font-family: arial;  
+    font-weight: bold;
+    position: relative;
+
+}
+#h1-1{ 
+ color: #1a4699;
+ font-style: oblique;
+ font-family: 'Franklin Gothic Medium';
+ padding: 6px;
+}
+/* now this css for those lines */
+
+#h3-1{ 
+    color: rgb(120, 160, 95) ;
+    font-style: oblique;
+    font-family: 'Franklin Gothic Medium';
+} 
+
+#h5-1{
+    color: rgb(20, 84, 157) ;
+    font-style: oblique;
+    font-family: Verdana;
+    font-weight: bold;
+}
+
+#label-1{
+    color: rgb(169, 147, 38) ;
+    font-style: bold;
+    font-size: large;
+    text-justify:auto;
+    font-style: oblique;
+    font-family: 'Franklin Gothic Medium';
+}
+
+#img-1 {
+     background-color: #11111B;
+}
+
+
+#div-1{
+    padding: 4px;
+    /* transform: translateX(-15em); */
+
+}
+
+#radios{
+    background-color:none;
+    margin: 4px;
+    padding: 3px;
+    color:#1ab324  
+}
+    
+
+#form-2{
+	background-color: #343a40 !important;
+	padding: 10px !important;
+	color: white;
+	border: 1px solid black;
+    background-image: linear-gradient(#000000, #303030) !important;
+
+}
+
+
+#register{
+	background-color: #3e4748 !important;
+	padding: 10px !important;
+	color: white;
+    border-color:none;
+    cursor: pointer;
+    display: block;
+    width: 100%;
+    border: 1px solid transparent;
+    padding: .375rem .75rem;
+    font-size: 1rem;
+    line-height: 1.5;
+    border-radius: .25rem;
+    transition: color .15s ease-in-out,background-color .15s ease-in-out,border-color .15s ease-in-out,box-shadow .15s ease-in-out;
+}
+
+
+#register:hover{
+    border-color: rgb(27, 27, 127);
+}
+
+#icon-2{
+    float: left;
+    width: 50%;
+    left: 0;
+    margin-right: auto;
+
+}
+
+#hr-1{
+    display: block;
+    unicode-bidi: isolate;
+    margin-block-start: 0.5em;
+    margin-block-end: 0.5em;
+    margin-inline-start: auto;
+    margin-inline-end: auto;
+    overflow: hidden;
+    border-style: inset;
+    border-width: 1px;
+}
+
+#th-1{
+    color: #9293A0; 
+    font-family: 'Trebuchet MS';
+    background-color: none; 
+    width: 89px; 
+    font-size: 15px; 
+    padding: 2px;
+}
+
+#home1 {
+    color: white; 
+    text-align: left; 
+    background: #11111B; 
+    font-size: 20px; 
+    padding: 20px; 
+    margin: 20px;
+}
+
+#home2 {
+    font-size: 16px; 
+    color:#6E6E7E;
+} 
+
+
+#table-1{
+    color:white;  
+    background: #1E1E2D; 
+    margin: 24px; 
+    padding: 20px; 
+    width:  1000px;   
+    height: 550px;
+}
+
+
+
+
+#label-t1{ 
+    padding: 20px; margin: 10px;  float: left;
+    font-size: 22px;   font-weight: bolder; font-family:'Trebuchet MS'; 
+}
+
+
+
+    #icon-t1{ width: 80%;margin: 5px;  float: left;  }
+
+/*Annoucments*/ #span-1{ padding: 5px; margin: 10px; font-size: 18px; }
+
+/*Archive*/    #span-2{ padding: 5px; margin: 10px; color:#4F4D70;  font-size: 15px;}
+
+    #numb-1{  color: #D2CCD1; font-size: 14px; float: right;  margin-right: 30em; } 
+
+    @media (max-width: 576px) {
+        #numb-1 { margin-right: 5px; }
+    }
+
+    #span-3{ padding: 5px; margin: 10px;  color:#4F4D70;  font-size: 13px; }
+    
+
+    #span-4{  color:#4F4D70;  padding: 5px; margin: 10px; font-size: 13px; }
+
+    #posts-2{  color: #4F4D70;  font-size: 13px; float: right; margin-right: 32.1em; }
+
+    @media (max-width: 576px) {
+        #posts-2 { margin-right: 5px; }
+    }
+    
+
+
+
+
+.nodiv, h2, a{ text-align: left; margin: 0px 4em; }
+
+.NodivDoggy{ text-align: left; 
+    margin: 0px 0px; }
+
+.reservation-images-codes{ 
+    width: 300px; 
+    float:left; 
+    margin: -1px 20px 10px; 
+}
+
+.RG1{ 
+    text-align: right; 
+    margin: 0px 48 0px; 
+}
+
+.nodiv3 { 
+    color:rgb(255, 0, 0); 
+    text-align: left; 
+    margin: 0px 6em ;
+} 
+
+
+.Divno56{
+     margin-top: 30px; 
+     float: right; 
+     color:white;  
+     background: #1E1E2D; 
+     margin: 24px; 
+     padding: 20px; 
+     width: 1000px;   
+     height: 550px;
+    }
+
+.table-1{ 
+    color:white;  
+    background: #1E1E2D; 
+    margin: 24px; 
+    padding: 20px; 
+    width: 1000px;   
+    height: 550px;
+}
+
