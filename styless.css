@@ -141,6 +141,7 @@ body{
 }
 
 
+/*  Imported Styles  */
 
 body{
     font-family: 'Poppins';  
@@ -149,6 +150,7 @@ body{
     margin:0px;
     
 }
+
 .icon-2{
     float: center;
     width: 50%;
@@ -198,11 +200,12 @@ nav{
     display: table-cell;
 }
 
-/* Tables Styles */
+/* Header Tables Styles */
 
 .container{
     max-width: 800px !important;
 }
+
 /* .contain-all-tables{
 } */
 
@@ -234,6 +237,11 @@ table, .table {
     display: block;
 }
 /* Media Selectors  */
+
+
+
+
+
 @media (max-width: 767px) {
     .main-row{
     margin: 0px;
@@ -251,6 +259,20 @@ table, .table {
     .symbs{
         max-width: 35px;
         max-height: 35px;
+    }
+}
+
+/* Overflow Queries  */
+
+.table{
+    max-width: 100%;
+    overflow-x: auto;
+    -webkit-overflow-scrolling: touch;
+}
+
+@media screen and (max-width: 768px) {
+    .table{
+    overflow-x: scroll ;
     }
 }
 
