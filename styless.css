@@ -264,14 +264,14 @@ table, .table {
 
 /* Overflow Queries  */
 
-.table{
+table{
     max-width: 100%;
     overflow-x: auto;
     -webkit-overflow-scrolling: touch;
 }
 
 @media screen and (max-width: 768px) {
-    .table{
+    table{
     overflow-x: scroll ;
     }
 }
