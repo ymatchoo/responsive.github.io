@@ -1,0 +1,396 @@
+
+
+body{
+    background-color: #171723;
+    font-family: arial;  
+    font-weight: bold;
+    position: relative;
+
+}
+.first-h1{ 
+    color: #1a4699;
+    font-style: oblique;
+    font-family: 'Franklin Gothic Medium';
+    padding: 6px;
+}
+/* now this css for those lines */
+
+.header-h3{ 
+    color: rgb(120, 160, 95) ;
+    font-style: oblique;
+    font-family: 'Franklin Gothic Medium';
+} 
+
+.header-img {
+    background-color: #11111B;
+}
+.form-wrapper{
+    text-align: center;
+    justify-content: center;
+    
+}
+
+.primary-form{
+    background-color: #343a40 !important;
+	padding: 10px !important;
+	color: white;
+	border: 1px solid black;
+    background-image: linear-gradient(#000000, #303030) !important;
+}
+
+.label-form{
+    color: rgb(169, 147, 38) ;
+    font-style: bold;
+    font-size: large;
+    text-justify:auto;
+    font-style: oblique;
+    font-family: 'Franklin Gothic Medium';
+}
+
+.inputs-label-form{
+    color: rgb(20, 84, 157) ;
+    font-style: oblique;
+    font-family: Verdana;
+    font-weight: bold;
+}
+
+
+
+
+
+
+.radios-input{
+    background-color:none;
+    margin: 1rem;
+    padding: 0.7rem;
+    color:#1ab324  
+}
+
+.register-button{
+	background-color: #3e4748 !important;
+    border-color:#0c056a ;
+	padding: 10px !important;
+	color: rgb(255, 255, 255);
+    cursor: pointer;
+    width: 100%;
+    padding: .375rem .75rem;
+}
+
+
+.register-button:hover{
+    border-color: rgb(0, 0, 249);
+}
+
+.icon-2{
+    float: left;
+    width: 50%;
+    left: 0;
+    margin-right: auto;
+}
+
+
+/*  Imported Styles  */
+
+body{
+    font-family: 'Poppins';  
+    background-color: #171723;
+    line-height: 1.1;
+    margin:0px;
+    
+}
+
+.icon-2{
+    float: center;
+    width: 50%;
+    margin-right: auto;
+}
+
+.seprator{
+    display: block;
+    height: 0;
+    border-bottom: 1px solid #2B2B40;
+}
+
+.home-bc{
+    background: #11111B; 
+}
+
+
+.home1 {
+    color: white; 
+    background: #11111B; 
+    font-size: 15px; 
+    padding: 20px; 
+}
+
+.home2 {
+    display: block;
+    font-size: 12px; 
+    color:#6E6E7E;
+} 
+
+.seprator{
+    display: block;
+    height: 0;
+    border-bottom: 1px solid #2B2B40;
+    margin-bottom: 7px;
+}
+
+nav{
+    margin-bottom: 15px;
+}
+.nav-text-span{
+    color: #9293A0;
+    font-size: 13px;
+    background-color: none;
+    width: 89px;
+    padding: 5px;
+    display: table-cell;
+}
+
+/* Header Tables Styles */
+
+.container{
+    max-width: 800px !important;
+}
+
+/* .contain-all-tables{
+} */
+
+.main-row{
+    margin: 2rem 2rem 1rem 2rem;
+    padding: 1rem;
+
+}
+
+.table-responsive-costum{
+
+    background: #1E1E2D; 
+}
+
+.table-responsive {
+    overflow-x: hidden !important;
+    overflow-y: hidden !important;
+    width: 100%;
+}
+
+.seprator-bc{
+    background-color: #171723;
+}
+
+
+table, .table {
+    background: #1E1E2D; 
+    color: white;  
+    display: block;
+}
+/* Media Selectors  */
+
+
+
+
+
+@media (max-width: 767px) {
+    .main-row{
+    margin: 0px;
+    }
+}
+
+
+@media (max-width: 767px) {
+    .costum-width-td-1{
+        min-width: 180px;
+    }
+}
+
+@media (max-width:767px) {
+    .symbs{
+        max-width: 35px;
+        max-height: 35px;
+    }
+}
+
+/* Overflow Queries  */
+
+table{
+    max-width: 100%;
+    overflow-x: auto;
+    -webkit-overflow-scrolling: touch;
+}
+
+@media screen and (max-width: 768px) {
+    table{
+    overflow-x: scroll ;
+    }
+}
+
+
+/*
+@media (max-width: 767px) {
+    #table-responsive-costum {
+    background-color: #1E1E2D;
+    }
+} */
+
+
+
+/* Elements Inside Tables */
+
+
+.symbs{
+    width: 48px;
+    height: 48px;
+}
+.symbs-p{
+    width: 48px;
+    height: 48px;
+    border-radius: 50%;
+    display: inherit;
+}
+
+
+tr {
+    border-bottom-width: 1px;
+    border-bottom-style: dashed;
+    border-bottom-color: #2B2B40;
+    
+}
+
+.no-border-tr{
+    border:none;
+}
+
+
+.td-max-width-2{
+    width: 290px !important; 
+}
+
+
+
+th, #th-1 {
+    border: none !important;
+}
+
+
+.label-t {
+    height: auto;
+    font-weight: bolder;
+    font-size: 17px;
+    display: flex;
+    color: white;
+    padding-bottom: 10px;
+}
+
+.archive-text{
+    color:#92929F; 
+    font-size:13px;
+    display: block; 
+}
+
+.col-12, th, tr, td {
+    border-top: 0 !important;
+}
+
+.symb-container {
+    display: flex;
+    align-items: center;
+}
+
+.symb-container img {
+    margin-right: 10px;
+}
+
+
+
+/* Costum Width Columns */
+
+/* .costum-col-5{
+    width: 31.9%;
+}
+
+
+.costum-col-3{
+    width: 15%;
+}
+
+.col-costum-auto{
+    width: auto;
+} */
+
+
+.span-m-1{
+    font-size: 13px; 
+    text-align:center;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    padding-bottom: 5px;
+    line-height: 2px;
+}
+
+.span-1 {
+    font-size: 14px; 
+    margin-bottom: 0.01px;
+    padding-bottom: 5px
+}
+
+.span-2 {
+    color: #4F4D70;
+    font-size: 12px; 
+    display: block; 
+    
+}
+
+.white-text-dy{
+    color: #FFF;
+    font-size: 12.35px; 
+    font-weight: 400;
+}
+
+.flex-text-muted{
+    color: #4F4D70;
+    font-size: 12px; 
+    display: block;
+}
+
+.counts-fle {
+    color: #CDCDDE;
+    font-weight: 600;
+    font-size: 15.25px;
+    display: block; 
+    text-align: center;
+} 
+
+.pos-text-muted {
+    text-align: center;
+    color: #4F4D70;
+    font-size: 12px; 
+    display: block;
+    text-align: center;
+}
+
+.span-3 {
+    color: #4F4D70;
+    font-size: 12px; 
+}
+
+.span-4 {
+    color: #4F4D70;
+    font-size: 12px; 
+}
+
+
+.span-1-t{
+    padding-top: 1rem;
+    font-size: 14px; 
+    margin-bottom: 0.01px;
+    padding-bottom: 5px
+}
+
+.nav-bar-regions{
+    display: flex;
+    flex-direction: column;
+    float: right;
+    width: 25% !important;
+    margin-right: -1em;
+}
