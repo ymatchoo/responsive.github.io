@@ -4,6 +4,8 @@
 <head>
         <title>HTML</title>
         <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link href='https://fonts.googleapis.com/css?family=Poppins' rel='stylesheet'>
+
         <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
         <link rel="stylesheet" href="styless.css">
         <link rel="stylesheet" type="text/css" href="src/css/bootstrap.min.css">
@@ -16,7 +18,7 @@
 
     <div  id="container-1" class="container">
 
-        <header id="header-1" >
+        <header id="header-1"  style="text-align: center;">
             <div class="row justify-content-center "> 
                 <div class="col-6">                  
                     <h1 id="h1-1">RANKED GAMING</h1>
@@ -37,7 +39,7 @@
         </header>
 
         <div id="div-1" class="row justify-content-center">
-            <form id="form-2" class="col-6 ">
+            <form   id="form-2" class="col-6 " >
 
                 <div class="form-group">
                     <label id="label-1">Fill out the following fields</label>
@@ -75,74 +77,294 @@
     </div>
 
     <!--  Container-fluid -->
-
     <div class="container-fluid">
-
         <div class="row">
-            <div class=" col-lg-6 col-md-8 col-12">
-                <img id="icon-2" src="imgs/text-decal.png">
-            </div>  
+          <div class="col-lg-6 col-md-8  col-12">
+            <img id="icon-2" src="Images/banners/image-rg.png">
+          </div>
         </div>
-        
-        <div class="row">
-            <div class="col-12">
-                <hr id="hr-1">
+  
+        <div class="seprator"></div>
+        <nav class="row">
+          <div class="col-12">
+            <span class="nav-text-span">BOARD</span> 
+            <span class="nav-text-span">LADDER</span> 
+            <span class="nav-text-span">SHOP</span> 
+            <span class="nav-text-span">EVENTS</span>
+            <span class="nav-text-span">ADMIN</span>
+          </div>
+        </nav>
+  
+        <div class="row home-bc">
+          <div class="col-12">
+            <div class="home1">Home 
+              <br>
+              <span class="home2">Home</span>
             </div>
+          </div>
         </div>
-
-
-        <div class="row">
-            <div class=" col-lg-6 col-md-6 col-12">
-                <table> 
-                    <th id="th-1">BOARD</th> 
-                    <th id="th-1">SHOP</th> 
-                    <th id="th-1">LADDER</th> 
-                    <th id="th-1">EVENTS</th>
-                    <th id="th-1">ADMIN</th>
+      </div>  
+      <!-- TABLES START HERE -->
+  
+      <div  class="container"> 
+        <div class="contain-all-tables">
+          <div class="row">
+              <div class="col-12 main-row">  
+                <div class="table-responsive">
+                  <table class="table">
+                    <thead>   
+                      <tr id="th-1">
+                        <th class="col-12" colspan="3">        
+                            <h6 class="label-t"> Welcome To Ranked Gaming </h6>
+                        </th>      
+                      </tr>
+                    </thead>
+                    <tbody>
+                      <!-- part A-1 -->
+                      <tr>
+                        <td class="col-1">
+                          <img class="symbs" src="Images/A1_decals/sym-1.png">
+                        </td>
+                        <td class="col-7 costum-width-td-1">
+                          <p class="span-1">Announcements</p> 
+                          <span class="archive-text"> Archive</span>
+                          <span class="span-3">Announcements about RGC's software and website </span>
+                        </td>
+                        <td class="col-1 costum-width-2">
+                          <span class="counts-fle">4437</span>   
+                          <span class="pos-text-muted">posts</span>  
+                        </td>
+                        <td  class="col-auto col-costum-auto">
+                          <div class="symb-container"> 
+                            <img class="symbs-p" src="./Images/profile_logos/p-logo-1.png">
+                            <di >
+                              <span class="span-m-1">Global Shadow Fiend Tournm... </span>
+                              <span class="flex-text-muted">By 
+                              <span class="white-text-dy">  AZOOZ|. </span>
+                              </span>
+                              <span class="span-3">9 hours ago </span>
+                            </div>
+                          </div>
+                        </td>                
+                        </tr>
+                        <!-- part A-2 -->
+                        <tr>
+                          <td class="col-1" id="td1">
+                            <img class="symbs" src="Images/A1_decals/sym-2.png" >
+                          </td>
+                          <td class="col-7 costum-width-td-1">
+                            <p class="span-1">News and Updates</p>
+                            <span class="span-3">Find the latest RGC news and discussions here. </span>
+                          </td>
+                          
+                          <td class="col-3 costum-width-td-2">
+                            <span class="counts-fle">178</span>   
+                            <span class="pos-text-muted">posts</span>  
+                          </td>
+                          <td class="col-auto">
+                            <div class="symb-container"> 
+                              <img class="symbs-p" src="./Images/profile_logos/p-logo-2.png">
+                              <div>
+                                <span class="span-m-1">[BETA] Reward System on RGC M... </span>
+                                <span class="flex-text-muted">By 
+                                  <span class="white-text-dy" style="color:red;"> MoON </span>
+                                  </span>
+                                <span class="span-3">October 28, 2020 </span>
+                              </div>
+                            </div>
+                          </td>   
+                        </tr>
+                        <!-- part A-3 -->
+                        <tr>
+                          <td class="col-1" id="td1">
+                            <img class="symbs" src="Images/A1_decals/sym-3.png" >
+                          </td>
+                          <td class="col-7 costum-width-td-1">
+                            <p class="span-1">Client and Forum Rules</p>
+                            <span class="span-3">Important codes of conduct on the client and forums. </span>
+                          </td>
+                          <td class="col-1">
+                            <span class="counts-fle">3</span>   
+                            <span class="pos-text-muted">posts</span>  
+                          </td>
+                          <td class="col-auto">
+                            <div class="symb-container"> 
+                              <img class="symbs-p" src="./Images/profile_logos/p_logo-3.jpg">
+                              <div>
+                                <span class="span-m-1">RGC Global Rules & Terms of Us... </span>
+                                <span class="flex-text-muted">By 
+                                  <span class="white-text-dy" style="color:#4f9a12;">Adrian</span>
+                                  </span>
+                                <span class="span-3">November 16, 2022</span>
+                              </div>
+                            </div>
+                          </td>   
+                        </tr>
+                        <!-- part  A-4 -->
+                        <tr class="no-border-tr">
+                        <td class="col-1" id="td1">
+                          <img class="symbs" src="Images/A1_decals/sym-4.png" >
+                        </td>
+                        <td class="col-7 costum-width-td-1">
+                          <p class="span-1-t">Tournament Rules</p>
+                        </td>
+                        <td class="col-1">
+                          <span class="counts-fle">3</span>   
+                          <span class="pos-text-muted">posts</span>  
+                        </td>
+                        <td class="col-auto">
+                          <div class="symb-container"> 
+                            <img class="symbs-p" src="./Images/profile_logos/p-logo-4.png">
+                            <div>
+                              <span class="span-m-1">5 vs 5 Dota Tournament Rules... </span>
+                              <span class="flex-text-muted">By 
+                                <span class="white-text-dy" style="color: #d00;">Hakka </span>
+                                </span>
+                              <span class="span-3">November 24, 2019</span>
+                            </div>
+                          </div>
+                        </td>   
+                      </tr>
+                      </tbody>
+                    </table>
+                </div>
+  
+          <!-- begin Table B -->
+  
+              <div class="table-responsive">
+                  <table class="table">
+                    <thead>   
+                  <thead>   
+                    <tr id="th-1">
+                      <th class="col-12" colspan="3">        
+                          <h6 class="label-t"> Member Service Center </h6>
+                      </th>      
+                    </tr>
+                  </thead>
+                  <tbody>
+                    <!-- part B-1 -->
+                      <tr>
+                        <td class="col-1" id="td1">
+                          <img class="symbs"  src="Images/A2_decals/sym-1.png">
+                        </td>
+                        <td class="col-7 costum-width-td-1">
+                          <p class="span-1">Help Desk</p>
+                          <span class="span-2">Have a quick client or website question and don't feel like searching? Ask it here!</span>
+                        </td>
+                        <td class="col-5 costum-width-td-2">
+                          <span class="counts-fle">4038</span>   
+                          <span class="pos-text-muted">posts</span>  
+                        </td>
+                        <td class="col-auto">
+                          <div class="symb-container"> 
+                            <img class="symbs-p" src="./Images/profile_logos/p-logo-4.png">
+                            <div>
+                              <span class="span-m-1">Global Shadow Fiend Tournm... </span>
+                              <span class="flex-text-muted">By 
+                                <span class="white-text-dy"> AZOOZ|. </span>
+                                </span>
+                              <span class="span-3">2 hours ago </span>
+                            </div>
+                          </div>
+                        </td>   
+                      </tr>
+                      <!-- part B-2 -->
+                      <tr>
+                        <td class="col-1" id="td1">
+                          <img class="symbs" src="Images/A2_decals/sym-3.png" >
+                        </td>
+                        <td class="col-7 costum-width-td-1">
+                          <p class="span-1">Client Bugs</p>
+                          <span class="span-3">Post bugs and glitches you find on the client and forum. </span>
+                        </td>
+                        <td class="col-5 costum-width-td-2">
+                          <span class="counts-fle">28</span>   
+                          <span class="pos-text-muted">posts</span>  
+                        </td>
+                        <td class="col-auto">
+                          <div class="symb-container"> 
+                            <img class="symbs-p" src="./Images/profile_logos/p-logo-4.png">
+                            <div>
+                              <span class="span-m-1">Global Shadow Fiend Tournm... </span>
+                              <span class="flex-text-muted">By 
+                                <span class="white-text-dy"> AZOOZ|. </span>
+                                </span>
+                              <span class="span-3">2 hours ago </span>
+                            </div>
+                          </div>
+                        </td>   
+                      </tr>
+                    <!-- part B-3 -->
+                    <tr>
+                        <td class="col-1" id="td1">
+                          <img class="symbs" src="Images/A2_decals/sym-3.png" >
+                        </td>
+                        <td class="col-7 costum-width-td-1">
+                          <p class="span-1">Mobile App Bugs</p>
+                          <span class="span-3">Post bugs and glitches you find on the mobile app.</span>
+                        </td>
+                        <td class="col-5 costum-width-td-2">
+                          <span class="counts-fle">28</span>   
+                          <span class="pos-text-muted">posts</span>  
+                        </td>
+                        <td class="col-auto">
+                          <div class="symb-container"> 
+                            <img class="symbs-p" src="./Images/profile_logos/p-logo-4.png">
+                            <div>
+                              <span class="span-m-1">Global Shadow Fiend Tournm... </span>
+                              <span class="flex-text-muted">By 
+                                <span class="white-text-dy"> AZOOZ|. </span>
+                                </span>
+                              <span class="span-3">2 hours ago </span>
+                            </div>
+                          </div>
+                        </td>   
+                      </tr>
+                    <!-- part B-4 -->
+                    <tr class="no-border-tr">
+                      <td class="col-1" id="td1">
+                        <img class="symbs" src="Images/A2_decals/sym-2.png" >
+                      </td>
+                      <td class="col-7 costum-width-td-1">
+                        <p class="span-1">Technical Support</p>
+                        <span class="span-3"> Got problems with your RGC or computer? Post here</span>
+                      </td>
+                      <td class="col-5 costum-width-td-2">
+                        <span class="counts-fle">12177</span>   
+                        <span class="pos-text-muted">posts</span>  
+                      </td>
+                      <td class="col-auto">
+                        <div class="symb-container"> 
+                          <img class="symbs-p" src="./Images/profile_logos/p-logo-4.png">
+                          <div>
+                            <span class="span-m-1">Global Shadow Fiend Tournm... </span>
+                            <span class="span-2">By  
+                            <span class="white-text-dy">  AZOOZ|. </span>
+                            </span>
+                            <span class="span-3">2 hours ago </span>
+                          </div>
+                        </div>
+                      </td>   
+                    </tr>
+                  </tbody>
                 </table>
-            </div>
+              </div>
+            </div>    
+          </div>
         </div>
-        
-        <div class="row">
-            <div class="col-12">
-            <div id="home1">Home
-                <br><span id="home2">Home 
-            </div>
-        </div>
+      </div>
+  
+  
+  
+      <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" 
+      integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+      <script src="https://cdn.jsdelivr.net/npm/popper.js@1.12.9/dist/umd/popper.min.js" 
+      integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+      <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/js/bootstrap.min.js" 
+      ntegrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+  </body>
+  </html>
 
-
-    <!-- First Table -->
-
-    <div class="table-1">
-
-        <div class="row">
-            <div class="col-lg-6 col-md-8 col-12"> 
-                <label id="label-t1">Welcome To Ranked Gaming </label>
-            </div>                    
-        </div> 
-
-        <p>
-
-        <div  class="row">
-            <div class=" col-lg-1 col-md-1 col-2">
-                <img id="icon-t1" src="imgs/decal-a.png">
-            </div>
-            <div class="col-10" style="text-align: left;">
-                <span id="span-1">Announcements</span>
-                <br> 
-                <span id="span-2">Archive</span><span id="numb-1"> 4291</span>
-                <br>
-                <span id="span-3"> Announcements about RGC's software</span> 
-                <span id="posts-2"> posts </span>
-                <br>
-                <span id="span-4">and website.</span>
-            </div>
-        </div>
-        <!-- Begin Section-Row 2 -->
-        
-
-
-    </div>
 
 
 
