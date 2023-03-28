@@ -1,625 +1,481 @@
-body {
-  color: white;
-  font-family: "Poppins", sans-serif;
-  background-color: #171723;
-  line-height: 1.1;
-  margin: 0px;
-  height: 10000px;
-}
-
-
-.container {
-  max-width: 100%;
-  padding: 0;
-  overflow: hidden;
-}
-
-@media (max-width: 767px) {
-  .container {
-      padding: 0 10px;
-  }
-}
-
-.contains-two-grades {
-  max-width: 1220px;
-}
-
-
-.contains-two-grades {
-  margin-left: auto;
-  margin-right: auto;
-}
-
-.header-wrapper {
-  background-color: #1e1e2d;
-  margin-left: auto;
-  margin-right: auto;
-
-}
-
-
-@media (max-width: 762px) {
-
-  .first-home,
-  .icon-wrap,
-  .menu-container {
-      margin-left: 10px;
-  }
-
-  .primary-icon {
-      padding: 0;
-      margin-left: -25px;
-  }
-}
-
-@media (max-width: 762px) {
-
-  .profile-wrapper {
-      display: none;
-  }
-}
-
-.banner-content {
-  display: flex;
-  margin-right: 45rem;
-  text-align: center;
-  align-items: center;
-  background-color: #1e1e2d;
-
-}
-
-.profile-wrapper {
-  align-items: center;
-  position: absolute;
-  margin-left: 15rem !important ;
-  left: 50%;
-  top: 50px;
-  transform: translate(-50%, -50%);
-}
-
-
-.wrap-profile-login {
-  display: flex;
-  width: 100%;
-  position: relative;
-
-}
-
-
-.profile-center {
-  width: 60px;
-  height: 50px;
-  border: 0;
-  border-radius: 0.475rem;
-  margin-top: 35px;
-  background-color: #323248;
-}
-
-
-.clock::before {
-  content: "\f017";
-  font-family: FontAwesome;
-  font-style: normal;
-  font-weight: normal;
-  text-decoration: inherit;
-  display: inline;
-  color: #92929F;
-  font-size: 16px;
-
-}
-
-
-.clock {
-  position: relative;
-  max-width: fit-content;
-  height: 50px;
-  margin-top: 50px;
-  border: 2px #0BB783;
-  display: block;
-  padding-right: 1rem;
-
-}
-
-.person-name {
-  display: block;
-  padding-top: 15px;
-}
-.seprator {
-  display: block;
-  height: 0;
-  border-bottom: 1px solid #2b2b40;
-}
-
-/* Font Awesome Icons */
-
-.content-one,
-.content-two,
-.content-three,
-.content-four,
-.content-five {
-  position: relative;
-}
-
-.content-one:before,
-.content-two:before,
-.content-three:before,
-.content-four:before,
-.content-five:before {
-  font-family: FontAwesome;
-  font-style: normal;
-  font-weight: normal;
-  text-decoration: inherit;
-  /*--adjust as necessary--*/
-  color: #565674;
-  font-size: 13px;
-  padding-right: 0.5em;
-  top: 0;
-  left: 0;
-}
-
-.content-one:before {
-  content: "\f086";
-}
-
-.content-two:before {
-  content: "\f07a";
-}
-
-.content-three:before {
-  content: "\f012";
-}
-
-.content-four:before {
-  content: "\f091";
-}
-
-.content-five:before {
-  content: "\f509";
-}
-
-/* <<< NAVBAR STYLES >>> */
-
-.nav-wrapper {
-  display: flex;
-  justify-content: space-evenly;
-  text-align: center;
-}
-
-.nav-content {
-  margin-right: 50rem;
-}
-
-@media (max-width: 767px) {
-  .nav-content {
-      margin-right: 1rem;
-      position: sticky;
-      justify-content: space-evenly;
-      left: 0;
-      z-index: 5;
-  }
-
-  .banner-content {
-      margin-right: 1rem;
-  }
-}
-
-.navbar-dark {
-  background-color: inherit !important;
-}
-
-/* nav {
-} */
-
-
-.nav-item {
-  color: #9293a0;
-  font-size: 13px;
-  padding: 5px;
-
-}
-
-.nav-link {
-  display: inline;
-}
-
-/* 
-@media (max-width: 767px) {
-  .nav-item {
-      max-width: 65px;
-  }
-} */
-
-
-
-.needed-later-menu-toggl22e-icon {
-  position: fixed;
-  top: 10px;
-  right: 10px;
-  z-index: 99999;
-}
-
-a {
-  color: inherit;
-}
-
-a:hover {
-  text-decoration: none;
-  color: inherit;
-}
-
-/* Minimized Screen Navbar */
-
-
-
-
-
-/* Home Wrap */
-.seprator {
-  display: block;
-  height: 0;
-  border-bottom: 1px solid #2b2b40;
-  margin-bottom: 7px;
-}
-
-
-.home-wrap {
-  margin: auto;
-  text-align: center;
-  background: #11111b;
-}
-
-
-@media (max-width: 767px) {
-  .first-home {
-      margin-right: 0;
-  }
-}
-
-.first-home {
-  margin-right: 70rem;
-
-  color: white;
-  background: #11111b;
-  font-size: 15px;
-  padding: 20px;
-}
-
-.secondary-home {
-  display: block;
-  font-size: 12px;
-  color: #6e6e7e;
-}
-
-/* Header Tables Styles */
-
-
-/* .wrap-all-content {
-  position: relative;
-  z-index: 3;
-} */
-
-
-.contains-two-grades {
-  display: flex;
-  flex-wrap: wrap;
-  width: 100%;
-}
-
-.first-grade-tables {
-  margin: 2em 0;
-}
-
-
-
-/* Media Queries */
-
-@media (max-width: 900px) {
-  .first-grade-tables {
-      margin: 1em 0 0 0 !important;
-      flex-basis: 50%;
-      max-width: 100%;
-  }
-}
-
-@media (max-width: 767px) {
-  .second-grade-right-bar {
-      margin: 1em !important;
-      flex-basis: 100%;
-      max-width: 93%;
-  }
-}
-
-@media (max-width: 767px) {
-
-  .second-grade-regions,
-  .region-icon-0,
-  .latest-threads-section {
-      width: 100%;
-  }
-}
-
-
-.table-responsive {
-  background: #1e1e2d;
-  width: 100%;
-  border-bottom: solid #171723 0.75rem;
-}
-
-.seprator-bc {
-  background-color: #171723;
-}
-
-.table {
-  background: #1e1e2d;
-  color: white;
-  display: block;
-}
-
-/* TD Width Styles  */
-
-.td-symb-width {
-  width: 25px;
-}
-
-.costum-width-td-1 {
-  min-width: 260px;
-}
-
-@media (max-width: 767px) {
-  .costum-width-td-1 {
-      min-width: 180px;
-  }
-}
-
-@media (max-width: 767px) {
-  .symbs {
-      max-width: 35px;
-      max-height: 35px;
-  }
-}
-
-.costum-width-td-2 {
-  min-width: 140px;
-}
-
-.ellipisis-text {
-  overflow: hidden;
-  white-space: nowrap;
-  text-overflow: ellipsis;
-}
-
-.costum-width-auto {
-  max-width: 40%;
-  max-width: 290px;
-}
-
-.symbs {
-  width: 48px;
-  height: 48px;
-}
-
-.symbs-p {
-  width: 48px;
-  height: 48px;
-  border-radius: 50%;
-  display: inherit;
-}
-
-td {
-  max-height: 100px !important;
-}
-
-tr {
-  border-bottom: 1px dashed #2b2b40;
-}
-
-.no-border-tr {
-  border: none;
-}
-
-th,
-#th-1 {
-  border: none !important;
-}
-
-.label-t {
-  height: auto;
-  font-weight: bolder;
-  font-size: 17px;
-  display: flex;
-  color: white;
-  padding-bottom: 10px;
-}
-
-.archive-text {
-  color: #92929f;
-  font-size: 13px;
-  display: block;
-}
-
-.col-12,
-th,
-tr,
-td {
-  border-top: 0 !important;
-}
-
-.symb-container {
-  display: flex;
-  align-items: center;
-}
-
-.symb-width-fix {
-  margin-right: 20px;
-}
-
-.symb-container img {
-  margin-right: 10px;
-}
-
-.costum-width-auto {
-  white-space: nowrap;
-  overflow: hidden;
-  text-overflow: ellipsis;
-}
-
-.ellipsis-text-4-td {
-  font-size: 13px;
-  text-align: center;
-  padding-bottom: 5px;
-}
-
-.petite-label {
-  font-size: 14px;
-  margin-bottom: 0.01px;
-  padding-bottom: 5px;
-}
-
-.span-2 {
-  color: #4f4d70;
-  font-size: 12px;
-  display: block;
-}
-
-.white-text-dy {
-  color: #fff;
-  font-size: 12.35px;
-  font-weight: 400;
-}
-
-.flex-text-muted {
-  color: #4f4d70;
-  font-size: 12px;
-  display: block;
-}
-
-.counts-fle {
-  color: #cdcdde;
-  font-weight: 600;
-  font-size: 15.25px;
-  display: block;
-  text-align: center;
-  margin-top: 10px;
-}
-
-.pos-text-muted {
-  text-align: center;
-  color: #4f4d70;
-  font-size: 12px;
-  display: block;
-  text-align: center;
-}
-
-.span-3 {
-  color: #4f4d70;
-  font-size: 12px;
-}
-
-.span-4 {
-  color: #4f4d70;
-  font-size: 12px;
-}
-
-.label-trophy {
-  padding-top: 1rem;
-  font-size: 14px;
-  margin-bottom: 0.01px;
-  padding-bottom: 5px;
-}
-
-
-
-.second-grade-right-bar {
-  margin: 2em 0 0;
-  padding: 0px;
-  flex-wrap: wrap;
-  align-items: center;
-  flex-direction: column;
-}
-
-.region-icon-0 {
-  width: 100%;
-  height: 55px;
-  margin-bottom: 6px;
-  border-radius: 5%;
-  border: 1px solid #2b2b40 !important;
-}
-
-.latest-threads-section {
-  width: 100%;
-  min-height: 413px;
-  margin-top: 5px;
-  padding-top: 5px;
-  background-color: #1e1e2d;
-}
-
-.header-label {
-  color: white;
-  font-size: 17px;
-  margin: 30px;
-}
-
-.symps-text-wrapper {
-  display: flex;
-  align-items: center;
-  padding-left: 20px;
-  margin-bottom: 20px;
-}
-
-.symbs-topics-logo {
-  width: 40px;
-  height: 40px;
-  margin-right: 5px;
-  border-radius: 50%;
-}
-
-.box-parent {
-  position: relative;
-}
-
-.bypasser-primary {
-  display: block;
-}
-
-.box-count {
-  position: absolute;
-  right: 20px;
-  display: inline-block;
-  text-align: right;
-  color: #cdcdde;
-
-  background-color: #171723;
-  text-align: center;
-}
-
-.wid-box {
-  width: 18px;
-  background-color: #171723;
-}
-
-/* Scrollbar (Overflow) Styles  */
-
-::-webkit-scrollbar {
-  width: 5px;
-  height: 5px;
-}
-
-::-webkit-scrollbar-track {
-  background-color: #1e1e2d;
-}
-
-::-webkit-scrollbar-thumb {
-  background-color: #888;
-  border-radius: 2px;
-  cursor: pointer;
-}
-
-::-webkit-scrollbar-thumb:hover {
-  background-color: #555;
-  cursor: grab;
-}
-
-webkit-scrollbar {
-  width: 5px;
-  height: 5px;
-}
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <title>HTML</title>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css"
+    integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous" />
+  <link href="https://fonts.googleapis.com/css?family=Poppins" rel="stylesheet" />
+  <link rel="stylesheet" href="styles.css" />
+  <link rel="icon" href="Images/banners/initial-icon.png" />
+  <link rel="stylesheet" href="fonts-5/css/all.css" />
+</head>
+
+<body>
+  <!--  Container Header -->
+  <!-- Consider Combining the both Containers -->
+  <div class="container-fluid">
+    <div class="header-wrapper">
+      <div class="row icon-wrap">
+        <div class="col-lg-6 col-md-8 primary-icon">
+          <img src="Images/banners/image-rg.png" />
+        </div>
+        <div class="partner-circle">
+          <div class="circle">
+            <span class="clock"></span>
+          </div>
+        </div>
+        <div class="col-4 profile-center">
+          <div class="person-name">
+            <span> <span class="profile-circle"> LOGIN </span> </span>
+          </div>
+        </div>
+      </div>
+      <div class="seprator"></div>
+
+      <div class="nav-wrapper">
+        <nav class=" menu-container navbar navbar-expand-md navbar-dark bg-dark">
+          <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
+            aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="nav-content">
+            <div class="collapse navbar-collapse" id="navbarNav">
+              <ul class="navbar-nav">
+                <li class="nav-item">
+                  <a href="#" class="nav-link">
+                    <span class="content-one">BOARD</span>
+                  </a>
+                </li>
+                <li class="nav-item">
+                  <a href="#" class="nav-link">
+                    <span class="content-two">SHOP</span>
+                  </a>
+                </li>
+                <li class="nav-item">
+                  <a href="#" class="nav-link">
+                    <span class="content-three">LADDER</span>
+                  </a>
+                </li>
+                <li class="nav-item">
+                  <a href="#" class="nav-link">
+                    <span class="content-four">EVENTS</span>
+                  </a>
+                </li>
+                <li class="nav-item">
+                  <a href="#" class="nav-link">
+                    <span class="content-five">ADMIN</span>
+                  </a>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </nav>
+      </div>
+    </div>
+<!-- Home-Wrapper -->
+    <div class="home-wrap">
+      <div class="first-home">
+        Home
+        <br />
+        <span class="secondary-home">Home</span>
+      </div>
+    </div>
+
+  </div>
+
+  <!-- TABLES & NEW CONTAINER START HERE -->
+  <div class="container">
+    <div class="row wrap-all-content">
+      <div class="contains-two-grades">
+        <div class="col-8 first-grade-tables">
+          <!-- begin Table A -->
+          <div class="table-responsive">
+            <table class="table">
+              <thead>
+                <tr id="th-1">
+                  <th colspan="3">
+                    <h6 class="label-t">Welcome To Ranked Gaming</h6>
+                  </th>
+                </tr>
+              </thead>
+              <tbody>
+                <!-- part A-1 -->
+                <tr>
+                  <td class="td-symb-width">
+                    <img class="symbs" src="Images/a1-decals/sym-1.png" />
+                  </td>
+                  <td class="costum-width-td-1">
+                    <p class="petite-label">Announcements</p>
+                    <span class="archive-text"> Archive</span>
+                    <span class="span-3">Announcements about RGC's software and website
+                    </span>
+                  </td>
+                  <td class="costum-width-2">
+                    <span class="counts-fle">4437</span>
+                    <span class="pos-text-muted">posts</span>
+                  </td>
+                  <td class="costum-width-auto">
+                    <div class="symb-container">
+                      <img class="symbs-p" src="./Images/profile-logos/p-logo-1.png" />
+                      <div class="ellipisis-text">
+                        <span class="ellipsis-text-4-td">Global Shadow Fiend
+                          Tourn11111111111111111111111111</span>
+                        <span class="flex-text-muted">By
+                          <span class="white-text-dy">AZOOZ|. </span>
+                        </span>
+                        <span class="span-3">9 hours ago </span>
+                      </div>
+                    </div>
+                  </td>
+                </tr>
+                <!-- part A-2 -->
+                <tr>
+                  <td class="td-symb-width">
+                    <img class="symbs" src="Images/a1-decals/sym-2.png" />
+                  </td>
+                  <td class="costum-width-td-1">
+                    <p class="petite-label">News and Updates</p>
+                    <span class="span-3">Find the latest RGC news and discussions here.
+                    </span>
+                  </td>
+
+                  <td class="costum-width-td-2">
+                    <span class="counts-fle">178</span>
+                    <span class="pos-text-muted">posts</span>
+                  </td>
+                  <td class="costum-width-auto">
+                    <div class="symb-container">
+                      <img class="symbs-p" src="./Images/profile-logos/p-logo-2.png" />
+                      <div class="ellipisis-text">
+                        <span class="ellipsis-text-4-td">[BETA] Reward System on RGC M...
+                        </span>
+                        <span class="flex-text-muted">By
+                          <span class="white-text-dy" style="color: red">
+                            MoON
+                          </span>
+                        </span>
+                        <span class="span-3">October 28, 2020 </span>
+                      </div>
+                    </div>
+                  </td>
+                </tr>
+                <!-- part A-3 -->
+                <tr>
+                  <td class="td-symb-width">
+                    <img class="symbs" src="Images/a1-decals/sym-3.png" />
+                  </td>
+                  <td class="ostum-width-td-1">
+                    <p class="petite-label">Client and Forum Rules</p>
+                    <span class="span-3">Important codes of conduct on the client and forums.
+                    </span>
+                  </td>
+                  <td class="costum-width-td-2">
+                    <span class="counts-fle">3</span>
+                    <span class="pos-text-muted">posts</span>
+                  </td>
+                  <td class="costum-width-auto">
+                    <div class="symb-container">
+                      <img class="symbs-p" src="./Images/profile-logos/p_logo-3.jpg" />
+                      <div class="ellipisis-text">
+                        <span class="ellipsis-text-4-td">RGC Global Rules & Terms of Us...
+                        </span>
+                        <span class="flex-text-muted">By
+                          <span class="white-text-dy" style="color: #4f9a12">Adrian</span>
+                        </span>
+                        <span class="span-3">November 16, 2022</span>
+                      </div>
+                    </div>
+                  </td>
+                </tr>
+                <!-- part  A-4 -->
+                <tr class="no-border-tr">
+                  <td class="td-symb-width">
+                    <img class="symbs" src="Images/a1-decals/sym-4.png" />
+                  </td>
+                  <td class="costum-width-td-1">
+                    <p class="label-trophy">Tournament Rules</p>
+                  </td>
+                  <td class="costum-width-td-2">
+                    <span class="counts-fle">3</span>
+                    <span class="pos-text-muted">posts</span>
+                  </td>
+                  <td class="costum-width-auto">
+                    <div class="symb-container">
+                      <img class="symbs-p" src="./Images/profile-logos/p-logo-4.png" />
+                      <div class="ellipisis-text">
+                        <span class="ellipsis-text-4-td">5 vs 5 Dota Tournament Rules...
+                        </span>
+                        <span class="flex-text-muted">By
+                          <span class="white-text-dy" style="color: #d00">Hakka
+                          </span>
+                        </span>
+                        <span class="span-3">November 24, 2019</span>
+                      </div>
+                    </div>
+                  </td>
+                </tr>
+              </tbody>
+            </table>
+          </div>
+          <!-- begin Table B -->
+          <div class="table-responsive">
+            <table class="table">
+              <thead>
+                <thead>
+                  <tr id="th-1">
+                    <th class="col-12" colspan="3">
+                      <h6 class="label-t">Member Service Center</h6>
+                    </th>
+                  </tr>
+                </thead>
+              </thead>
+
+              <tbody>
+                <!-- part B-1 -->
+                <tr>
+                  <td class="td-symb-width">
+                    <img class="symbs" src="Images/a2-decals/sym-1.png" />
+                  </td>
+                  <td class="costum-width-td-1">
+                    <p class="petite-label">Help Desk</p>
+                    <span class="span-2">Have a quick client or website question and don't feel
+                      like searching? Ask it here!</span>
+                  </td>
+                  <td class="costum-width-td-2">
+                    <span class="counts-fle">4038</span>
+                    <span class="pos-text-muted">posts</span>
+                  </td>
+                  <td class="costum-width-auto">
+                    <div symb-width-fix class="symb-container">
+                      <img class="symbs-p" src="./Images/profile-logos/p-logo-4.png" />
+                      <div class="ellipisis-text">
+                        <span class="ellipsis-text-4-td">Global Shadow Fiend Tournm111111
+                        </span>
+                        <span class="flex-text-muted">By
+                          <span class="white-text-dy"> AZOOZ|. </span>
+                        </span>
+                        <span class="span-3">2 hours ago </span>
+                      </div>
+                    </div>
+                  </td>
+                </tr>
+                <!-- part B-2 -->
+                <tr>
+                  <td class="td-symb-width">
+                    <img class="symbs" src="Images/a2-decals/sym-3.png" />
+                  </td>
+                  <td class="ostum-width-td-1">
+                    <p class="petite-label">Client Bugs</p>
+                    <span class="span-3">Post bugs and glitches you find on the client and
+                      forum.
+                    </span>
+                  </td>
+                  <td class="costum-width-td-2">
+                    <span class="counts-fle">28</span>
+                    <span class="pos-text-muted">posts</span>
+                  </td>
+                  <td class="costum-width-auto">
+                    <div class="symb-container symb-width-fix">
+                      <img class="symbs-p" src="./Images/profile-logos/p-logo-4.png" />
+                      <div class="ellipisis-text">
+                        <span class="ellipsis-text-4-td">Global Shadow Fiend Tournm...
+                        </span>
+                        <span class="flex-text-muted">By
+                          <span class="white-text-dy"> AZOOZ|. </span>
+                        </span>
+                        <span class="span-3">2 hours ago </span>
+                      </div>
+                    </div>
+                  </td>
+                </tr>
+                <!-- part B-3 -->
+                <tr>
+                  <td class="td-symb-width">
+                    <img class="symbs" src="Images/a2-decals/sym-3.png" />
+                  </td>
+                  <td class="ostum-width-td-1">
+                    <p class="petite-label">Mobile App Bugs</p>
+                    <span class="span-3">Post bugs and glitches you find on the mobile
+                      app.</span>
+                  </td>
+                  <td class="col-4 costum-width-td-2">
+                    <span class="counts-fle">28</span>
+                    <span class="pos-text-muted">posts</span>
+                  </td>
+                  <td class="costum-width-auto">
+                    <div class="symb-container symb-width-fix">
+                      <img class="symbs-p" src="./Images/profile-logos/p-logo-4.png" />
+                      <div class="ellipisis-text">
+                        <span class="ellipsis-text-4-td">Global Shadow Fiend Tournm...
+                        </span>
+                        <span class="flex-text-muted">By
+                          <span class="white-text-dy"> AZOOZ|. </span>
+                        </span>
+                        <span class="span-3">2 hours ago </span>
+                      </div>
+                    </div>
+                  </td>
+                </tr>
+                <!-- part B-4 -->
+                <tr class="no-border-tr">
+                  <td class="td-symb-width">
+                    <img class="symbs" src="Images/a2-decals/sym-2.png" />
+                  </td>
+                  <td class="costum-width-td-1">
+                    <p class="petite-label">Technical Support</p>
+                    <span class="span-3">
+                      Got problems with your RGC or computer? Post here</span>
+                  </td>
+                  <td class="col-4 costum-width-td-2">
+                    <span class="counts-fle">12177</span>
+                    <span class="pos-text-muted">posts</span>
+                  </td>
+                  <td class="costum-width-auto">
+                    <div class="symb-container symb-width-fix">
+                      <img class="symbs-p" src="./Images/profile-logos/p-logo-4.png" />
+                      <div class="ellipisis-text">
+                        <span class="ellipsis-text-4-td">Global Shadow Fiend Tournm...
+                        </span>
+                        <span class="span-2">By
+                          <span class="white-text-dy"> AZOOZ|. </span>
+                        </span>
+                        <span class="span-3">2 hours ago </span>
+                      </div>
+                    </div>
+                  </td>
+                </tr>
+              </tbody>
+            </table>
+          </div>
+        </div>
+
+        <div class="col-4 second-grade-right-bar">
+          <div>
+            <img class="region-icon-0" src="Images/nav-bar/region-bar-0.png" />
+            <img class="region-icon-0" src="Images/nav-bar/region-bar-1.png" />
+            <img class="region-icon-0" src="Images/nav-bar/region-bar-2.png" />
+            <img class="region-icon-0" src="Images/nav-bar/region-bar-3.png" />
+            <img class="region-icon-0" src="Images/nav-bar/region-bar-4.png" />
+            <img class="region-icon-0" src="Images/nav-bar/region-bar-5.png" />
+          </div>
+          <!-- Second Div -->
+          <div class="latest-threads-section">
+            <h6 class="header-label">Latest Topics</h6>
+            <div class="fourth-section-wrapper">
+              <div class="primary-sidebar">
+                <!-- 1 -->
+                <div class="symps-text-wrapper">
+                  <a>
+                    <img class="symbs-topics-logo" src="images/topics-symps/goodbye.jpg" />
+                  </a>
+                  <div class="box-partner">
+                    <span class="petite-label">Bypasser</span>
+                    <span class="flex-text-muted">
+                      By
+                      <span class="white-text-dy">Adrian
+                        <span class="box-count">0</span>
+                      </span>
+                    </span>
+                    <span class="flex-text-muted">an hour ago</span>
+                  </div>
+                </div>
+                <!-- 2 -->
+                <div class="symps-text-wrapper">
+                  <a>
+                    <img class="symbs-topics-logo" src="images/topics-symps/goodbye.jpg" />
+                  </a>
+                  <div class="box-partner">
+                    <span class="petite-label">Bypasser</span>
+                    <span class="flex-text-muted">
+                      By
+                      <span class="white-text-dy">Adrian
+                        <span class="box-count">0</span>
+                      </span>
+                    </span>
+                    <span class="flex-text-muted"> an hour ago</span>
+                  </div>
+                </div>
+                <!-- 3 -->
+                <div class="symps-text-wrapper">
+                  <a>
+                    <img class="symbs-topics-logo" src="images/topics-symps/goodbye.jpg" />
+                  </a>
+                  <div class="box-partner">
+                    <span class="petite-label">Bypasser</span>
+                    <span class="flex-text-muted">
+                      By
+                      <span class="white-text-dy">Adrian
+                        <span class="box-count">0</span>
+                      </span>
+                    </span>
+                    <span class="flex-text-muted"> an hour ago</span>
+                  </div>
+                </div>
+                <!-- 4 -->
+                <div class="symps-text-wrapper">
+                  <a>
+                    <img class="symbs-topics-logo" src="images/topics-symps/goodbye.jpg" />
+                  </a>
+                  <div class="box-partner">
+                    <span class="petite-label">Bypasser</span>
+                    <span class="flex-text-muted">
+                      By
+                      <span class="white-text-dy">Adrian
+                        <span class="box-count">0</span>
+                      </span>
+                    </span>
+                    <span class="flex-text-muted"> an hour ago</span>
+                  </div>
+                </div>
+                <!-- 5 -->
+                <div class="symps-text-wrapper">
+                  <a>
+                    <img class="symbs-topics-logo" src="images/topics-symps/goodbye.jpg" />
+                  </a>
+                  <div class="box-partner">
+                    <span class="petite-label">Bypasser</span>
+                    <span class="flex-text-muted">
+                      By
+                      <span class="white-text-dy">Adrian
+                        <span class="box-count">
+                          <div class="wid-box">0</div>
+                        </span>
+                      </span>
+                    </span>
+                    <span class="flex-text-muted"> an hour ago</span>
+                  </div>
+                </div>
+                <!-- en -->
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Closing Tags of Two-Grades Row, Contaner -->
+      </div>
+    </div>
+  </div>
+  </div>
+
+
+  <!-- 
+      Study display: flex flex-wrap: wrap;
+  -->
+
+  <div>
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
+      integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
+      crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.12.9/dist/umd/popper.min.js"
+      integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
+      crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/js/bootstrap.min.js"
+      ntegrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
+      crossorigin="anonymous"></script>
+  </div>
+</body>
+
+</html>
