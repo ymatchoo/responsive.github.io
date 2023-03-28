@@ -597,6 +597,55 @@ td {
     background-color: #171723;
 }
 
+
+/* Footer  */
+
+@media (max-width: 767px) {
+    .footer {
+        margin-left: 15px !important;
+    }
+}
+
+.footer {
+    display: flex;
+    max-width: 100%;
+    margin-right: auto;
+    padding-left: 0;
+    margin-left: 0;
+}
+
+.wrap-users {
+    padding-left: 0;
+}
+
+.users-label {
+    font-size: 16.25px;
+    color: #565674;
+}
+
+.available-users {
+    font-size: 13px;
+}
+
+.available-users span {
+    margin-right: 0.15rem;
+}
+
+.staff-yellow {
+    color: rgb(195, 126, 17);
+}
+
+.staff-purple {
+    color: rgb(103, 36, 150);
+}
+
+.staff-blue {
+    color: #297599;
+
+}
+
+/* Scrollba
+
 /* Scrollbar (Overflow) Styles  */
 
 ::-webkit-scrollbar {
