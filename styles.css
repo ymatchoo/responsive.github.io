@@ -60,8 +60,9 @@ body {
     text-align: center;
     align-items: center;
     background-color: #1e1e2d;
-
 }
+
+
 
 .first-banner {
     cursor: pointer;
@@ -69,7 +70,6 @@ body {
 
 .profile-wrapper {
     cursor: pointer;
-
     align-items: center;
     position: absolute;
     margin-left: 15rem !important;
@@ -82,7 +82,6 @@ body {
     display: flex;
     width: 100%;
     position: relative;
-
 }
 
 .profile-center {
@@ -128,52 +127,6 @@ body {
     border-bottom: 1px solid #2b2b40;
 }
 
-/*  Awesome Font Icons */
-
-.content-one,
-.content-two,
-.content-three,
-.content-four,
-.content-five {
-    position: relative;
-}
-
-.content-one:before,
-.content-two:before,
-.content-three:before,
-.content-four:before,
-.content-five:before {
-    font-family: FontAwesome;
-    font-style: normal;
-    font-weight: normal;
-    text-decoration: inherit;
-    /*--adjust as necessary--*/
-    color: #565674;
-    font-size: 13px;
-    padding-right: 0.5em;
-    top: 0;
-    left: 0;
-}
-
-.content-one:before {
-    content: "\f086";
-}
-
-.content-two:before {
-    content: "\f07a";
-}
-
-.content-three:before {
-    content: "\f012";
-}
-
-.content-four:before {
-    content: "\f091";
-}
-
-.content-five:before {
-    content: "\f509";
-}
 
 /* <<< NAVBAR STYLES >>> */
 
@@ -212,8 +165,27 @@ body {
 
 }
 
-.nav-link {
-    display: inline;
+
+
+.active {
+    color: #92929F !important;
+    background-color: rgba(27, 27, 41, 0.8);
+}
+
+.nav-link:hover {
+    background-color: rgba(27, 27, 41, 0.8) !important;
+}
+
+.nav-item:hover .content-two:before,
+.nav-item:hover .content-three:before,
+.nav-item:hover .content-four:before,
+.nav-item:hover .content-five:before {
+    color: #0BB783 !important;
+}
+
+
+.nav-item:hover .nav-text {
+    color: #92929F !important;
 }
 
 
@@ -231,6 +203,54 @@ a {
 a:hover {
     text-decoration: none;
     color: inherit;
+}
+
+/*  Awesome Font Icons */
+
+.content-one,
+.content-two,
+.content-three,
+.content-four,
+.content-five {
+    position: relative;
+}
+
+.content-one:before,
+.content-two:before,
+.content-three:before,
+.content-four:before,
+.content-five:before {
+    font-family: FontAwesome;
+    font-style: normal;
+    font-weight: normal;
+    text-decoration: inherit;
+    /*--adjust as necessary--*/
+    color: #565674;
+    font-size: 13px;
+    padding-right: 0.5em;
+    top: 0;
+    left: 0;
+}
+
+.content-one:before {
+    color: #0BB783;
+    content: "\f086";
+}
+
+.content-two:before {
+    content: "\f07a";
+}
+
+.content-three:before {
+    content: "\f012";
+}
+
+.content-four:before {
+    content: "\f091";
+}
+
+.content-five:before {
+    content: "\f509";
 }
 
 
@@ -284,6 +304,10 @@ a:hover {
 .first-grade-tables {
     margin: 2em 0 1em;
     padding-left: 0;
+}
+
+.petite-label:hover, .ellipsis-text-4-td:hover, .label-trophy:hover{
+    color: #0BB783;
 }
 
 
@@ -478,8 +502,7 @@ td {
 .flex-text-muted {
     color: #4f4d70;
     font-size: 12px;
-    display: block;
-}
+    display: block;}
 
 .counts-fle {
     color: #cdcdde;
