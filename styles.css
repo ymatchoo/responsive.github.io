@@ -4,7 +4,7 @@ body {
     background-color: #171723;
     line-height: 1.1;
     margin: 0px;
-    height: 10000px;
+    height: 100vh;
 }
 
 .container {
@@ -40,6 +40,7 @@ body {
     .menu-container {
         margin-left: 10px;
     }
+
     .primary-icon {
         padding: 0;
         margin-left: -10px;
@@ -62,7 +63,7 @@ body {
 
 }
 
-.first-banner{
+.first-banner {
     cursor: pointer;
 }
 
@@ -306,6 +307,7 @@ a:hover {
 }
 
 @media (max-width: 767px) {
+
     .second-grade-regions,
     .region-icon-0,
     .latest-threads-section {
@@ -532,7 +534,7 @@ td {
 
 .latest-threads-section {
     width: 100%;
-    min-height: 413px;
+    height: 470px;
     margin-top: 5px;
     padding-top: 5px;
     background-color: #1e1e2d;
@@ -548,15 +550,17 @@ td {
     display: flex;
     align-items: center;
     padding-left: 20px;
-    margin-bottom: 20px;
+    margin-bottom: 1.25rem;
 }
 
 .symbs-topics-logo {
-    width: 40px;
-    height: 40px;
-    cursor: pointer;
-    margin-right: 5px;
+    width: 55px;
+    height: 55px;
+    margin-right: 1rem;
+    border-style: none;
+    background-color: #1b1b29;
     border-radius: 50%;
+    cursor: pointer;
 }
 
 .box-parent {
@@ -633,16 +637,18 @@ td {
 
 }
 
-.right-wrap{
-    padding-top:5px  !important;
+.right-wrap {
+    padding-top: 0.25rem;
+    padding-bottom: 1rem;
+
 }
 
-.copyright{
+.copyright {
     font-size: 13px;
     color: #565674;
 }
 
-.rgc-label{
+.rgc-label {
     font-size: 13px;
     color: #CDCDDE;
 }
