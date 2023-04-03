@@ -293,8 +293,6 @@ a:hover {
 
 /* Header Tables Styles */
 
-
-
 .contains-two-grades {
     display: flex;
     flex-wrap: wrap;
@@ -306,8 +304,11 @@ a:hover {
     padding-left: 0;
 }
 
-.petite-label:hover, .ellipsis-text-4-td:hover, .label-trophy:hover{
-    color: #0BB783;
+.petite-label:hover,
+.ellipsis-text-4-td:hover,
+.label-trophy:hover,
+.hover-text-home:hover {
+    color: #0BB783 !important;
 }
 
 
@@ -502,7 +503,8 @@ td {
 .flex-text-muted {
     color: #4f4d70;
     font-size: 12px;
-    display: block;}
+    display: block;
+}
 
 .counts-fle {
     color: #cdcdde;
