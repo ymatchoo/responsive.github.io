@@ -254,7 +254,7 @@ a:hover {
 }
 
 
-/* Home Wrap */
+/* Home Styles */
 .seprator {
     display: block;
     height: 0;
@@ -291,7 +291,7 @@ a:hover {
     color: #6e6e7e;
 }
 
-/* Header Tables Styles */
+/* Header Tables */
 
 .contains-two-grades {
     display: flex;
@@ -678,7 +678,7 @@ td {
     color: #CDCDDE;
 }
 
-/* Scrollbar Styles  */
+/* Overflow Scrollbar Styles  */
 
 ::-webkit-scrollbar {
     width: 5px;
